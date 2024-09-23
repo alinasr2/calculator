@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calc">
+        <div class="display"></div>
+        <form>
+            <input type="button" value="AC" style="color: #7CCD4E;" onclick="removeAll()">
+            <input type="button" value="DE" style="color: #7CCD4E;" onclick="de()">
+            <input type="button" value="%" style="color: #7CCD4E;" onclick="add(this.value)">
+            <input type="button" value="/" style="color: #7CCD4E;" onclick="add(this.value)">
+            <input type="button" value="7" onclick="add(this.value)">
+            <input type="button" value="8" onclick="add(this.value)">
+            <input type="button" value="9" onclick="add(this.value)">
+            <input type="button" value="*" style="color: #7CCD4E;" onclick="add(this.value)">
+            <input type="button" value="4" onclick="add(this.value)">
+            <input type="button" value="5" onclick="add(this.value)">
+            <input type="button" value="6" onclick="add(this.value)">
+            <input type="button" value="-" style="color: #7CCD4E;" onclick="add(this.value)">
+            <input type="button" value="1" onclick="add(this.value)">
+            <input type="button" value="2" onclick="add(this.value)">
+            <input type="button" value="3" onclick="add(this.value)">
+            <input type="button" value="+" style="color: #7CCD4E;" onclick="add(this.value)">
+            <input type="button" value="00">
+            <input type="button" value="0" onclick="add(this.value)">
+            <input type="button" value="." onclick="add(this.value)">
+            <input type="button" value="=" style="background-color: #FA7B19;" onclick="equal()">
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
